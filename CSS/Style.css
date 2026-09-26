@@ -1,0 +1,724 @@
+.Main_Body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #f7f9fb;
+  color: #101928;
+  min-height: 100vh;
+}
+
+.Top_Bar {
+  background: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid #e4e6ea;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.Logo_Box {
+  width: 44px;
+  height: 44px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(132deg, #7b39ee, #4e45e6);
+  color: #fff;
+  font-size: 18px;
+}
+
+.Logo_Title {
+  margin: 0;
+  color: #101928;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.Logo_Hub {
+  color: #7b39ee;
+}
+
+.Logo_Sub {
+  margin: 0;
+  color: #6a717f;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.Add_Btn {
+  border: 0;
+  border-radius: 13px;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #7b39ee, #4e45e6);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Add_Btn:hover,
+.Save_Btn:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.Icon_Btn {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6a717f;
+}
+
+.Icon_Btn:hover {
+  background: #f2f3f7;
+  color: #101928;
+}
+
+.Profile_Img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #f2f3f7;
+  border-radius: 13px;
+}
+
+.Stat_Card,
+.Contact_Card,
+.Side_Card {
+  border: 1px solid #f2f3f7;
+  border-radius: 17px;
+}
+
+.Stat_Icon,
+.Side_Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.Stat_Icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 13px;
+  font-size: 16px;
+}
+
+.Side_Icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.Icon_Blue {
+  background: linear-gradient(132deg, #3a81f7, #2462ec);
+}
+
+.Icon_Amber {
+  background: linear-gradient(132deg, #fabd25, #f87217);
+}
+
+.Icon_Rose {
+  background: linear-gradient(132deg, #f33e5f, #db2527);
+}
+
+.Stat_Label {
+  margin: 0;
+  color: #6a717f;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.Stat_Number {
+  margin: 0;
+  color: #101928;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.All_Title {
+  margin: 0;
+  color: #101928;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.All_Sub {
+  margin: 4px 0 0;
+  color: #6a717f;
+  font-size: 14px;
+}
+
+.Search_Box {
+  position: relative;
+}
+
+.Search_Icon {
+  position: absolute;
+  left: 16px;
+  top: 18px;
+  color: #9ba2b0;
+  font-size: 14px;
+}
+
+.Search_Input {
+  padding: 13px 12px 13px 44px;
+  border: 1px solid #e4e6ea;
+  border-radius: 13px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.Search_Input:focus,
+.Field_Input:focus {
+  border-color: #7b39ee;
+}
+
+.Contact_Card {
+  height: 100%;
+  overflow: hidden;
+}
+
+.Contact_Card:hover {
+  border-color: #7b39ee;
+}
+
+.Card_Top {
+  padding: 16px 16px 12px;
+}
+
+.Avatar_Wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.Avatar_Large,
+.Avatar_Small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 700;
+}
+
+.Avatar_Large {
+  width: 56px;
+  height: 56px;
+  border-radius: 13px;
+  font-size: 18px;
+}
+
+.Avatar_Small {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.Avatar_Img {
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+}
+
+.Avatar_C1 { background: linear-gradient(132deg, #3a81f7, #2462ec); }
+.Avatar_C2 { background: linear-gradient(132deg, #8a5bf7, #7b39ee); }
+.Avatar_C3 { background: linear-gradient(132deg, #0fb882, #0c9389); }
+.Avatar_C4 { background: linear-gradient(132deg, #f33e5f, #eb479a); }
+.Avatar_C5 { background: linear-gradient(132deg, #f49d0c, #f87217); }
+.Avatar_C6 { background: linear-gradient(132deg, #05b5d5, #3a81f7); }
+.Avatar_C7 { background: linear-gradient(132deg, #6265f2, #8a5bf7); }
+.Avatar_C8 { background: linear-gradient(132deg, #d845f0, #eb479a); }
+
+.Dot_Fav,
+.Dot_Emerg {
+  position: absolute;
+  right: -4px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 8px;
+}
+
+.Dot_Fav {
+  top: -4px;
+  background: #fabd25;
+}
+
+.Dot_Emerg {
+  bottom: -4px;
+  background: #f33e5f;
+}
+
+.Contact_Name {
+  margin: 0;
+  color: #101928;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Contact_Phone {
+  color: #6a717f;
+  font-size: 14px;
+}
+
+.Info_Row {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Info_Icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+.Icon_Sky {
+  background: #dae9ff;
+  color: #2462ec;
+}
+
+.Icon_Violet {
+  background: #ece8ff;
+  color: #7b39ee;
+}
+
+.Icon_Green {
+  background: #d0f9e6;
+  color: #04956a;
+}
+
+.Icon_Small {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  font-size: 9px;
+}
+
+.Info_Text {
+  color: #4a5464;
+  font-size: 14px;
+}
+
+.Tag_Row {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.Group_Tag,
+.Emerg_Tag {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.Tag_Family { background: #dae9ff; color: #1c4dd9; }
+.Tag_Friends { background: #dbfbe8; color: #147f3e; }
+.Tag_Work { background: #ece8ff; color: #6c27da; }
+.Tag_School { background: #fdf2c8; color: #b3520a; }
+.Tag_Other { background: #f2f3f7; color: #4a5464; }
+
+.Emerg_Tag {
+  background: #ffe3e7;
+  color: #e01c49;
+}
+
+.Action_Bar {
+  margin-top: auto;
+  padding: 10px 16px;
+  border-top: 1px solid #f2f3f7;
+  background: #f8f9fc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Action_Btn {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.Btn_Call { background: #d0f9e6; color: #04956a; }
+.Btn_Mail { background: #ece8ff; color: #7b39ee; }
+.Btn_Fav,
+.Btn_Emerg,
+.Btn_Gray { background: #f2f3f7; }
+
+.Btn_Call:hover { background: #a6f2d1; color: #037758; }
+.Btn_Mail:hover { background: #dcd5ff; color: #6c27da; }
+.Btn_Fav { color: #9ba2b0; }
+.Btn_Fav:hover,
+.Btn_Fav_On { background: #fdf2c8; color: #f49d0c; }
+.Btn_Emerg { color: #9ba2b0; }
+.Btn_Emerg:hover,
+.Btn_Emerg_On { background: #ffe3e7; color: #f33e5f; }
+.Btn_Gray { color: #6a717f; }
+.Btn_Gray:hover { background: #e4e6ea; color: #101928; }
+
+.Empty_Box {
+  padding: 70px 10px;
+}
+
+.Empty_Icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 16px;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f3f7;
+  color: #d0d4dc;
+  font-size: 30px;
+}
+
+.Empty_Title {
+  margin: 0;
+  color: #6a717f;
+  font-weight: 500;
+}
+
+.Empty_Sub {
+  margin: 4px 0 0;
+  color: #9ba2b0;
+  font-size: 14px;
+}
+
+.Side_Card {
+  overflow: hidden;
+}
+
+.Side_Head {
+  padding: 16px 20px;
+  border-bottom: 1px solid #f2f3f7;
+}
+
+.Side_Amber {
+  background: linear-gradient(90deg, #fffaea, #fff6ec);
+}
+
+.Side_Rose {
+  background: linear-gradient(90deg, #fff0f3, #fef1f3);
+}
+
+.Side_Title {
+  margin: 0;
+  color: #101928;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Side_Sub {
+  margin: 0;
+  color: #6a717f;
+  font-size: 11px;
+}
+
+.Side_List,
+.Mob_List {
+  overflow-y: auto;
+}
+
+.Side_List {
+  max-height: 320px;
+}
+
+.Mob_List {
+  max-height: 280px;
+}
+
+.Side_Row {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f8f9fc;
+}
+
+.Side_Row:hover {
+  background: #fdf2c8;
+}
+
+.Side_Row_Rose:hover {
+  background: #ffe3e7;
+}
+
+.Side_Name {
+  margin: 0;
+  color: #101928;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Side_Phone {
+  margin: 0;
+  color: #6a717f;
+  font-size: 12px;
+}
+
+.Side_Call {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+
+.Call_Green { background: #d0f9e6; color: #04956a; }
+.Call_Rose { background: #ffe3e7; color: #e01c49; }
+
+.Side_Empty {
+  margin: 0;
+  padding: 30px 10px;
+  color: #9ba2b0;
+  font-size: 14px;
+}
+
+.Mob_Card {
+  margin-bottom: 0;
+  border: 1px solid #f2f3f7;
+  background: #fff;
+}
+
+.Mob_Icon {
+  width: 32px;
+  height: 32px;
+}
+
+.Mob_Title { font-size: 14px; }
+.Mob_Sub { font-size: 10px; }
+.Mob_Name { font-size: 11px; }
+.Mob_Phone { font-size: 10px; }
+
+.Mob_Face {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.Mob_Face .Avatar_Small {
+  width: 36px;
+  height: 36px;
+  font-size: 12px;
+}
+
+.Mob_Call {
+  width: 24px;
+  height: 24px;
+  font-size: 8px;
+}
+
+.Modal_Box {
+  border: 0;
+  border-radius: 17px;
+}
+
+.Modal_Title {
+  margin: 0;
+  color: #101928;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.Close_Btn {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f3f7;
+  color: #6a717f;
+  font-size: 16px;
+}
+
+.Close_Btn:hover {
+  background: #e4e6ea;
+  color: #101928;
+}
+
+.Modal_Avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(132deg, #5fa4fb, #2462ec);
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.Modal_Avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.Photo_Btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f2f3f7;
+  color: #364052;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Photo_Btn:hover {
+  background: #e4e6ea;
+}
+
+.Field_Label {
+  display: block;
+  margin-bottom: 6px;
+  color: #364052;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Field_Input {
+  padding: 12px 16px;
+  border: 1px solid #e4e6ea;
+  border-radius: 13px;
+  background: #f8f9fc;
+  font-size: 14px;
+}
+
+.Field_Input:focus {
+  background: #fff;
+}
+
+.Star_Red { color: #f33e5f; }
+
+.Error_Text {
+  margin: 6px 0 0;
+  color: #f33e5f;
+  font-size: 12px;
+}
+
+.Check_Box {
+  width: 20px;
+  height: 20px;
+}
+
+.Check_Text {
+  color: #4a5464;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Star_Amber,
+.Star_Rose {
+  margin-right: 4px;
+}
+
+.Star_Amber { color: #fabd25; }
+.Star_Rose { color: #f33e5f; }
+
+.Cancel_Btn,
+.Save_Btn {
+  border: 0;
+  border-radius: 13px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Cancel_Btn {
+  background: #f2f3f7;
+  color: #364052;
+}
+
+.Cancel_Btn:hover {
+  background: #e4e6ea;
+  color: #101928;
+}
+
+.Save_Btn {
+  background: #4e45e6;
+  color: #fff;
+}
+
+.Save_Btn:hover {
+  background: #4237cb;
+}
+
+@media (max-width: 576px) {
+  .Logo_Box {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Profile_Img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .Logo_Title {
+    font-size: 20px;
+  }
+
+  .All_Title {
+    font-size: 24px;
+  }
+
+  .Stat_Number {
+    font-size: 20px;
+  }
+
+  .Stat_Icon {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (min-width: 576px) {
+  .Stat_Label {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Side_Bar {
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+  }
+}
